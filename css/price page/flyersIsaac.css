@@ -1,0 +1,1586 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	box-sizing: border-box;
+}
+
+/* ************************************************************* FIRST MENU BAR SECTION *********************************************** */
+.first-menu-bar-section{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px rgb(196, 188, 188) solid;
+ }
+ 
+ .first-menu-bar-section .column1{
+    width: 50%;
+   float: left;
+ }
+ 
+ .first-menu-bar-section .column1 #brandName{
+    width: 30%;
+   float: left;
+ }
+ 
+ .first-menu-bar-section .column1 #brandName #designPoint{
+    float: left;
+    color: black;
+    padding: 25px 3px 0px 10px;
+    font-size: 25px;
+    font-weight: bolder;    
+ }
+ 
+ .first-menu-bar-section .column1 #brandName #pro{
+   float: left;
+   padding: 25px 0px 0px 0px;
+   color: black;
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bolder;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox{
+    width: 70%;
+   float: left;
+   padding: 25px 0px 0px 0px;
+   display: inline-flex;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox #searchBoxInput{
+   width: 300px;
+   height: 30px;
+   border: 0.5px solid #ddd;
+   background-color: white;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   font-size: 16px;
+   font-family: Arial;
+   padding: 3px 0px 3px 5px;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox #searchBoxButton{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+ }
+ 
+ .first-menu-bar-section .column2{
+    width: 40%;
+   float: left;
+   font-size: 16px;
+ }
+ 
+ .first-menu-bar-section .column2 #homepage{
+   float: left;
+   padding: 30px 10px 0px 200px;
+ }
+ 
+ .first-menu-bar-section .column2 #homepage a{
+    color: rgb(46, 207, 87);
+ }
+ 
+ .first-menu-bar-section .column2 #seller{
+    float: left;
+    padding: 30px 10px 0px 0px;
+ }
+ 
+ .first-menu-bar-section .column2 #seller a{
+    color: black;
+ }
+ 
+ .first-menu-bar-section .column2 #signIn{
+    float: left;
+    padding: 30px 0px 0px 0px;
+ }
+ 
+ .first-menu-bar-section .column2 #signIn a{
+    color: black;
+ }
+ 
+ .first-menu-bar-section .column3{
+    width: 10%;
+   float: left;
+   font-size: 16px;
+   padding: 25px 70px 0px 0px;  
+ }
+ 
+ .first-menu-bar-section .column3 #join{
+    padding: 4px 15px 4px 15px;
+    border: 1.5px rgb(46, 207, 87) solid;
+    border-radius: 2px;
+ }
+ 
+ .first-menu-bar-section .column3 #join a{
+    color:rgb(46, 207, 87);
+    font-weight: bolder;
+ }
+ 
+ /* ************************************************************* SECOND MENU BAR SECTION *********************************************** */ 
+ 
+ .second-menu-bar-section{
+  width: 100%;
+  height: 55px;
+   border-bottom: 1px rgb(196, 188, 188) solid;
+   padding: 17px 0px 0px 0px;
+   background:white;
+ }
+ 
+ .second-menu-bar-section .menuBar{
+    width: 100%;
+  }
+ 
+ .second-menu-bar-section .menuBar .megaMenu{
+   width: 40%;
+   float: left;
+   height: 35px;
+   position: relative;
+  margin: 0% 0% 0% 25%;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 1 *********************************************** */ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+   height: 37px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain #graphicsAndDesign{
+   color: #808080;
+   font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub{
+   position: absolute;
+   width: 80%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   font-size: 20px;
+   left: 0px;
+   margin-top: 17px;   /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub{
+   display: flex;
+   text-align: left;
+   padding-top: 5px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub a{
+   display: block;
+   text-align: left;
+   padding: 5px 0px 5px 5px;
+   color: #808080;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+   padding-left: 10px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: rgb(97, 94, 94);
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 2 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   height: 37px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain #WritingAndTranscription{
+   color: #808080;
+   font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub{
+   position: absolute;
+   width: 66.6%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   margin-top: 17px;
+   font-size: 20px;
+   left: 100px;    /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub{
+   display: block;
+   text-align: left;
+   padding-top: 5px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub a{
+   display: block;
+   text-align: left;
+   padding: 5px 5px 5px 5px;
+   color: #808080;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+   padding-left: 10px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 3 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   height: 37px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain #videoAndAnimation{
+   color: #808080;
+   font-size: 18px;
+ }
+
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub{
+   position: absolute;
+   width: 66.6%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   margin-top: 17px;
+   font-size: 20px;
+   left: 220px;    /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub{
+   display: block;
+   text-align: center;
+   padding-top: 5px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub a{
+   display: block;
+   text-align: center;
+   padding: 5px 0px 5px 5px;
+   color: #808080;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 4 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .businessMain{
+   width: 5%;
+   float: left;
+   position: relative;
+   margin: 0px 25% 0px 0px;
+   text-align: center;
+   height: 37px;
+ }
+
+ .second-menu-bar-section .menuBar .businessMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .businessMain #business{
+   font-size: 18px;
+   color: #808080;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub{
+   width: 200px;
+   background-color: rgb(236, 233, 236);
+   position: absolute;
+   padding: 2px 0px 2px 10px;
+   display: none;
+   margin-top: 17px;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain:hover .menuSub{
+   width: 150px;
+   background-color: rgb(236, 233, 236);
+   position: absolute;
+   padding: 2px 0px 2px 10px;
+   left: -65px;
+   display: block;
+   text-align: center;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub ul{
+  display: block;
+  margin: 15px 0px 5px 0px;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub ul a{
+   color: #808080;
+   font-size: 18px;  
+ }
+
+ /**************************************************************** SECTION NAVIGATION **************************************/
+
+.sectionNavigation{
+    width: 75%;
+    height: auto;
+    margin: 0% 12.5% 20px 12.5%;
+    height: 50px;
+    border-left: 1px #dadada solid;
+    border-right: 1px #dadada solid;
+    border-bottom: 1px #dadada solid;
+    padding-left: 2%;
+    position: sticky;
+}
+
+.sectionNavigation .theNavigation{
+  height: 50px;
+}
+
+.sectionNavigation .theNavigation .navPart{
+   width: 50%;
+   float: left;
+   margin: 0px 20% 0px 0px;
+}
+
+.sectionNavigation .theNavigation .navPart #Overview{
+  width: 17%;
+  float: left;
+  color: #808080;
+  font-size: 16px;
+  height: 50px;
+  padding: 15px 0px 15px 0px;
+}
+
+.sectionNavigation .theNavigation .navPart #Overview:hover, .sectionNavigation .theNavigation .navPart #Overview:focus{
+ border-bottom: 5px rgb(36, 240, 87) solid;
+ color: black;
+}
+
+.sectionNavigation .theNavigation .navPart #comparePackages{
+  width: 30%;
+  float: left;
+  color: #808080;
+  font-size: 16px;
+  height: 50px;
+  padding: 15px 0px 15px 0px;
+  margin: 0% 2% 0% 1%;
+
+}
+
+.sectionNavigation .theNavigation .navPart #comparePackages:hover, .sectionNavigation .theNavigation .navPart #comparePackages:focus{
+  border-bottom: 5px rgb(36, 240, 87) solid;
+  color: black;
+}
+ 
+.sectionNavigation .theNavigation .navPart #Description{
+  width: 18%;
+  float: left;
+  color: #808080;
+  font-size: 16px;
+  height: 50px;
+  padding: 15px 0px 15px 0px;
+  margin: 0% 2% 0% 1%;
+}
+
+.sectionNavigation .theNavigation .navPart #Description:hover, .sectionNavigation .theNavigation .navPart #Description:focus{
+  border-bottom: 5px rgb(36, 240, 87) solid;
+  color: black;
+}
+
+.sectionNavigation .theNavigation .navPart #Recommendations{
+  width: 26%;
+  float: left;
+  color: #808080;
+  font-size: 16px;
+  height: 50px;
+  padding: 15px 0px 15px 0px;
+  margin-right: 3%;
+}
+
+.sectionNavigation .theNavigation .navPart #Recommendations:hover, .sectionNavigation .theNavigation .navPart #Recommendations:focus{
+  border-bottom: 5px rgb(36, 240, 87) solid;
+  color: black;
+}
+
+.sectionNavigation .theNavigation .sharePart{
+    width: 20%;
+    float: left;
+    height: 30px;
+    margin: 10px 0px 10px 10%;
+}
+
+.sectionNavigation .theNavigation .sharePart .saved{
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  height: 30px;
+  padding: 5px 0px 0px 3px;
+  border: 1px #dadada solid;
+}
+
+.sectionNavigation .theNavigation .sharePart .saved a #savedIcon{
+  width: 30%;
+  float: left;  
+}
+
+.sectionNavigation .theNavigation .sharePart .saved a #savedIcon #love{
+  width: 15px;
+  height: 15px;
+}
+
+.sectionNavigation .theNavigation .sharePart .saved a #text{
+  width: 70%;
+  float: left;
+  color: #808080;
+}
+
+.sectionNavigation .theNavigation .sharePart .share{
+  width: 40%;
+  float: left;
+  margin: 0% 5% 0% 5%;
+  height: 30px;
+  padding: 5px 0px 0px 3px;
+  border: 1px #dadada solid;
+}
+
+.sectionNavigation .theNavigation .sharePart .share a #shareIcon{
+  width: 30%;
+  float: left;
+  padding-left: 3px;
+}
+
+.sectionNavigation .theNavigation .sharePart .share a #shareIcon #shareImage{
+  width: 15px;
+  height: 15px;
+}
+
+.sectionNavigation .theNavigation .sharePart .share a #text{
+  width: 70%;
+  float: left;
+  color: #808080
+}
+
+/********************************************************** The sections ***********************************************/
+
+.TheSections{
+  clear: both;
+  width: 75%;
+  margin: 0px 12.5% 20px 12.5%;
+  height: auto;
+}
+
+.TheSections .column1{
+  height: auto;
+  width: 63%;
+  float: left; 
+}
+
+/********************************************************** The Overview sections ***********************************************/
+
+.TheSections .column1 #overviewSection{
+  height: 700px;
+  border: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #overviewSection .heading{
+  width: 90%;
+  height: 100px;
+  padding: 20px 10px 10px 0px;
+  margin: 0% 5% 0% 5%;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #overviewSection .heading #text{
+  font-size: 27px;
+  color: black;
+  font-weight: bolder;
+}
+
+.TheSections .column1 #overviewSection .otherLinks{
+  width: 90%;
+  height: 50px;
+  padding: 20px 10px 10px 0px;
+  margin: 0% 5% 0% 5%;
+}
+
+.TheSections .column1 #overviewSection .otherLinks #businessLink{
+ color: #0087d7;
+ font-size: 16px;
+}
+
+.TheSections .column1 #overviewSection .otherLinks #flyerLink{
+  color: #0087d7;
+  font-size: 16px;
+}
+ 
+.TheSections .column1 #overviewSection .pictureSlides{
+  width: 100%;
+  height: 450px;
+  position:relative;
+}
+
+.TheSections .column1 #overviewSection .pictureSlides .flyerImage{
+	width: 50%;
+	height:430px;
+  position: absolute;
+  margin: 10px 25% 10px 25%;
+  transition: 0.75s;
+}
+
+.TheSections .column1 #overviewSection .pictureSlides .flyerImage:hover{
+	width: 54%;
+	height:450px;
+  position: absolute;
+  margin: 0px 23% 0px 23%;
+  transition: 0.5s ease-in-out;  
+}
+
+.TheSections .column1 #overviewSection .pictureSlides .buttonSize{
+	position:absolute;
+	width:35px;
+	height:100px;
+	border:none;
+	top:100px;
+	background-color:black;
+	color:white;
+  font-size:18px;
+  opacity: 0.4;
+}
+
+.TheSections .column1 #overviewSection .pictureSlides #button2{
+	position:relative;
+  float:right;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.TheSections .column1 #overviewSection .pictureSlides #button1{
+	position:relative;
+  float:left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/********************************************************** The Compare Package section ***********************************************/
+
+.TheSections .column1 #comparePackagesSection{
+  height: 472px;
+  border: 1px #d0d0d0 solid;
+  margin-top: 20px;
+  background-color: #eeeeee;
+  widows: 100%;
+}
+
+.TheSections .column1 #comparePackagesSection .heading{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  padding: 10px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TheSections .column1 #comparePackagesSection .table{
+  width: 100%;  
+ }
+
+ /********************************************************** The Column 1 ***********************************************/
+
+.TheSections .column1 #comparePackagesSection .table .column1{
+ width: 25%;
+ float: left;
+ border-right: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row1{
+  height: 120px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row2{
+  height: 130px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row3{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row4{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row2, #Row3, #Row4{
+  color: #949494;
+  font-size: 16px;
+  padding: 10px 0px 0px 15px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column1 #Row5{
+  height: 70px;
+}
+
+/********************************************************** The Column 2 ***********************************************/
+
+.TheSections .column1 #comparePackagesSection .table .column2{
+  width: 25%;
+  float: left;
+  border-right: 1px #d0d0d0 solid;
+  background-color: white;
+  transition: 0.75s ease-in-out;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2:hover{  
+  background-color: #f4ffff;
+  transition: 0.75s ease-in-out;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row1{
+  height: 120px;
+  border-bottom: 1px #d0d0d0 solid;
+  padding-top: 40px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row1 ul{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row2{
+  height: 130px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row2 #subTitle{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row2 #text{
+  color: #949494;
+  font-size: 16px;
+  padding: 0px 0px 0px 15px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row3{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row4{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row5{
+  height: 55px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row5 a #priceLink{
+  width: 80%;
+  height: 40px;
+  background-color: #00af5f;
+  margin: 15px 0px 0px 10%;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column2 #Row5 a #priceLink #text{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************************************************** The Column 3 ***********************************************/
+
+ .TheSections .column1 #comparePackagesSection .table .column3{
+  width: 25%;
+  float: left;
+  border-right: 1px #d0d0d0 solid;
+  background-color: white;
+  transition: 0.75s ease-in-out;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3:hover{  
+  background-color: #f4ffff;
+  transition: 0.75s ease-in-out;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row1{
+  height: 120px;
+  border-bottom: 1px #d0d0d0 solid;
+  padding-top: 40px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row1 ul{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row2{
+  height: 130px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row2 #subTitle{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row2 #text{
+  color: #949494;
+  font-size: 16px;
+  padding: 0px 0px 0px 15px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row3{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row4{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row5{
+  height: 55px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row5 a #priceLink{
+  width: 80%;
+  height: 40px;
+  background-color: #00af5f;
+  margin: 15px 0px 0px 10%;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column3 #Row5 a #priceLink #text{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************************************************** The Column 4 ***********************************************/
+
+ .TheSections .column1 #comparePackagesSection .table .column4{
+  width: 25%;
+  float: left;
+  background-color: white;
+  border: 1px #00d761 solid;
+  transition: 0.75s ease-in-out;
+ }
+ 
+.TheSections .column1 #comparePackagesSection .table .column4:hover{
+  background-color: #f4ffff;
+  transition: 0.75s ease-in-out;
+}
+
+ .TheSections .column1 #comparePackagesSection .table .column4 #Row1{
+  height: 120px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row1 #statement{
+  height: 30px;
+ background-color: #00af5f;
+ font-size: 13px;
+ padding: 5px 0px 0px 15px;
+ color: white;
+ font-weight: bold;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row1 #basic{
+ font-size: 25px;
+ color: black;
+ text-align: center;
+ margin-top: 10px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row2{
+  height: 130px;
+  border-bottom: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row2 #subTitle{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row2 #text{
+  color: #949494;
+  font-size: 16px;
+  padding: 0px 0px 0px 15px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row3{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row4{
+  height: 50px;
+  border-bottom: 1px #d0d0d0 solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0px 0px 0px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row5{
+  height: 55px;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row5 a #priceLink{
+  width: 80%;
+  height: 40px;
+  background-color: #00af5f;
+  margin: 15px 0px 0px 10%;
+}
+
+.TheSections .column1 #comparePackagesSection .table .column4 #Row5 a #priceLink #text{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************************************************** The Description section ***********************************************/
+
+.TheSections .column1 #DescriptionSection{
+  height: 500px;
+  margin-top: 20px;
+  border: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #DescriptionSection .heading{
+  height: 50px;
+  background-color: #eeeeee;
+  border-bottom: 1px #d0d0d0 solid;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TheSections .column1 #DescriptionSection .theTexts{
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.TheSections .column1 #DescriptionSection .theTexts .theList{
+  
+}
+
+.TheSections .column1 #DescriptionSection .theTexts .theList #subHeading{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.TheSections .column1 #DescriptionSection .theTexts .theList li{
+  font-size: 16px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/********************************************************** The Recommendations section ***********************************************/
+
+.TheSections .column1 #RecommendationsSection{
+  height: 450px;
+  margin: 20px 0px 50px 0px;
+  border: 1px #d0d0d0 solid;
+}
+
+.TheSections .column1 #RecommendationsSection #heading{
+  height: 50px;
+  background-color: #eeeeee;
+  border-bottom: 1px #d0d0d0 solid;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace{
+  height: 400px;
+  padding: 20px;
+}
+
+/* ****************************************** Recommendation column 1 *********************************************** */
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1{
+  width: 45%;
+  float: left;
+  background-color: white;
+  margin: 0px 5% 0px 0%;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace{
+ border: 1px rgb(202, 196, 196) solid;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig #Image #flyer4{
+ width: 100%;
+ height: 150px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1{
+ height: 130px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace{
+ width: 100%;
+ height: 30px;
+ margin: 2px 0px 2px 3px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+ width: 11%;
+ float: left;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+ width: 100%;
+ height: 25px;
+ border-radius: 50%;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+ width: 87%;
+ float: left;
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+ font-size: 12px;
+ padding-left: 10px;
+ color: black;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+ color: rgb(255, 153, 0);
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 #text{
+ width: 100%;
+ height: 120px;
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;	
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 #text a{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: black;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .textSpace1 #text a:hover{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: #65aa50;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar{
+ width: 100%;
+ height: 50px;
+ border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu{
+ width: 15%;
+ float: left;
+ padding: 15px 0px 0px 10px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar #loveLogo{
+ width: 10%;
+ float: left;
+ margin-right: 25%;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar #loveLogo #love{
+ width: 90%;
+ height: 33px;
+ padding: 15px 0px 0px 5px;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column1 .gigSpace .gig .statusBar #price{
+ width: 50%;
+ float: left;
+ padding: 10px 3px 10px 0px;	
+ font-size: 18px;
+ color: black;
+}
+
+/* ****************************************** Recommendation column 2 *********************************************** */
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2{
+  width: 45%;
+  margin-left: 5%;
+  float: left;
+}
+
+.TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace{
+  border: 1px rgb(202, 196, 196) solid;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig #Image #flyer5{
+  width: 100%;
+  height: 150px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1{
+  height: 130px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace{
+  width: 100%;
+  height: 30px;
+  margin: 2px 0px 2px 3px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace #person{
+  width: 11%;
+  float: left;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+  width: 100%;
+  height: 25px;
+  border-radius: 50%;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace #personName{
+  width: 87%;
+  float: left;
+  font-size: 12px;
+  padding-left: 10px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+  font-size: 12px;
+  padding-left: 10px;
+  color: black;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 .personSpace #personName p{
+  color: rgb(255, 153, 0);
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 #text{
+  width: 100%;
+  height: 120px;
+  font-size: 18px;
+  padding: 20px 10px 10px 10px;	
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 #text a{
+  font-size: 18px;
+  padding: 20px 10px 10px 10px;
+  color: black;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .textSpace1 #text a:hover{
+  font-size: 18px;
+  padding: 20px 10px 10px 10px;
+  color: #65aa50;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar{
+  width: 100%;
+  height: 50px;
+  border-top: 0.5px rgb(202, 196, 196) solid;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu{
+  width: 15%;
+  float: left;
+  padding: 15px 0px 0px 10px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu #line1{
+  width: 70%;
+  padding: 3px 0px 0px 0px;
+  height: 2px;
+  background-color: rgb(163, 150, 150);
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu #line2{
+  width: 70%;
+  padding: 2px 0px 0px 0px;
+  height: 1px;
+  background-color: white;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu #line3{
+  width: 70%;
+  padding: 3px 0px 0px 0px;
+  height: 2px;
+  background-color: rgb(163, 150, 150);
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu #line4{
+  width: 70%;
+  padding: 2px 0px 0px 0px;
+  height: 1px;
+  background-color: white;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar .lineMenu #line5{
+  width: 70%;
+  padding: 3px 0px 0px 0px;
+  height: 2px;
+  background-color: rgb(163, 150, 150);
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar #loveLogo{
+  width: 10%;
+  float: left;
+  margin-right: 25%;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar #loveLogo #love{
+  width: 90%;
+  height: 33px;
+  padding: 15px 0px 0px 5px;
+ }
+ 
+ .TheSections .column1 #RecommendationsSection .ImageSlidesSpace .column2 .gigSpace .gig .statusBar #price{
+  width: 50%;
+  float: left;
+  padding: 10px 3px 10px 0px;	
+  font-size: 18px;
+  color: black;
+ }
+
+/********************************************************** The sections column 2 ***********************************************/
+
+.TheSections .column2{
+  width: 37%;
+  float: left;
+}
+
+.TheSections .column2 .priceBoard{
+  width: 95%;
+  height: 300px;
+  border: 1px #d0d0d0 solid;
+  margin: 0px 0px 20px 5%;
+}
+
+
+
+
+.TheSections .column2 .personalData{
+  width: 95%;
+  height: 750px;
+  border: 1px #d0d0d0 solid;
+  margin: 0px 0px 20px 5%;
+  padding: 30px;
+}
+
+.TheSections .column2 .personalData .Row1{
+  height: 310px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop{
+  width: 100%;
+  height: 310px;
+  border-bottom: 1px rgb(192, 191, 191) solid;  
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart{
+  height: 250px;
+  width: 100%;
+  padding: 15px 0px 0px 100px;
+  margin-left: -10%;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .imageBoard{
+  height: 150px;
+  width: 200px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .imageBoard .imagePosition{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: rgb(250, 216, 222);
+  position: relative;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .imageBoard .imagePosition #isaacPic{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin: 35px 0px 0px 25px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .nameAndMotto{
+  width: 100%;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .nameAndMotto #name{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px 0px 0px 10px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .ImagePart .nameAndMotto #motto{
+  color: rgb(97, 95, 95);
+  font-size: 14px;
+  margin: 0px 0px 0px -10px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .linkPart{
+  width: 100%;
+  height: 40px;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .linkPart .contact .contactMe{
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border: 1px grey solid;
+}
+
+.TheSections .column2 .personalData .Row1 .foundationTop .linkPart .contact .contactMe #text{
+  color: rgb(105, 102, 102);  
+  font-size: 18px;
+}
+
+.TheSections .column2 .personalData .Row2{
+  height: 130px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom{
+  width: 100%;
+  height: 130px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 1px rgb(192, 191, 191) solid;  
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols{
+  width: 50%;
+  float: left;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .from{
+  height: 30px;
+  margin-top: 10px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .from #fromIcon{
+  width: 15px;
+  height: 15px;
+  float: left;  
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .from p{
+ color: rgb(119, 115, 115);
+ font-size: 16px;
+ padding: 0px 0px 0px 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .member{
+  height: 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .member #memberIcon{
+  width: 15px;
+  height: 15px;
+  float: left;  
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .member p{
+ color: rgb(119, 115, 115);
+ font-size: 16px;
+ padding: 0px 0px 0px 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .recentDelivery{
+  height: 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .recentDelivery #recentDeliveryIcon{
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .QuestionsAndSymbols .recentDelivery p{
+ color: rgb(119, 115, 115);
+ font-size: 16px;
+ padding: 0px 0px 0px 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers{
+  width: 50%;
+  float: left;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #country{
+ height: 30px;
+ margin-top: 10px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #country p{
+  color: rgb(82, 81, 81);
+ font-size: 16px;
+ font-weight: bolder;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: right;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #memberSince{
+  height: 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #memberSince p{
+   color: rgb(82, 81, 81);
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #deliveryHours{
+  height: 30px;
+}
+
+.TheSections .column2 .personalData .Row2 .foundationBottom .answers #deliveryHours p{
+  color: rgb(82, 81, 81);
+ font-size: 16px;
+ font-weight: bolder;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: right;
+}
+
+
+
+.TheSections .column2 .personalData .Row3{
+  height: 150px;
+  padding-top: 10px; 
+}
+
+.TheSections .column2 .personalData .Row3 #text p{
+  font-size: 16px;
+  color: #585858;
+  text-align: justify;
+}
+
+.TheSections .column2 .personalData .Row3 #text p #more{
+  display: none;
+}
+
+.TheSections .column2 .personalData .Row3 #text button{
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(79, 79, 250);
+}
+
+

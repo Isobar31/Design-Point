@@ -1,0 +1,190 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+    box-sizing: border-box;
+    
+}
+
+/************************************************* Isoboye Section **************************************************/
+
+#isoboye-resume{
+    background-color: silver;
+    width: 100%;
+    height: 750px;
+}
+
+/************************************************* Isoboye Section Main row1 **************************************************/
+
+#isoboye-resume .row1{
+    widows: 100%;
+    height: 300px;   
+}
+
+
+#isoboye-resume .row1 #row1-column1{
+    float: left;
+    width: 20%;
+}
+
+#isoboye-resume #isoboye-resume-pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+ }
+
+#isoboye-resume .row1 #row1-column2{
+    float: left;
+    width: 55%;
+    padding: 20px 100px 20px 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.row1 #row1-column2 h1{
+    font-size: 30px;
+} 
+
+#isoboye-resume .row1 #row1-column3{
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* 
+.row1 #row1-column3 .contact-table .contact-table-row{   
+    width: 100%;    
+} */
+
+#isoboye-resume .row1 #row1-column3 .contact-table .contact-table-row #column1{
+    width: 6%;    
+}
+
+#isoboye-resume .row1 #row1-column3 .contact-table .contact-table-row #column2{    
+    width: 93%;
+   }
+
+   .row1 #row1-column3 .contact-table .contact-table-row #column1 .contact-image{
+    width: 20px;
+    height: 15px;
+}
+
+/************************************************* Isoboye Section Main row2 **************************************************/
+
+#isoboye-resume .row2{
+    width: 100%;
+    height: 450px;
+    padding: 0px 20px 0px 20px;
+}
+
+/************************************************* Isoboye Section Main row2 column1 **************************************************/
+#isoboye-resume .row2 .column1{
+    float: left;
+    width: 50%;
+}
+
+#isoboye-resume .row2 .column1 p{
+   text-align: center;
+   font-size: 27px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+}
+
+#isoboye-resume .row2 .column1 .table-education{
+    margin: 0px;
+}
+
+#isoboye-resume .row2 .column1 .table-education td{
+    border: 1px black solid;
+}
+/************************************************* Isoboye Section table row1 **************************************************/
+#isoboye-resume .row2 .column1 .table-education .table-row1{
+   height: 25px;
+   font-size: 20px;
+   text-align: center
+}
+
+#isoboye-resume .row2 .column1 .table-education .table-row1 .table-row1-column1{
+   width:20%;
+   border: 1px black solid;
+}
+
+#isoboye-resume .row2 .column1 .table-education .table-row1 .table-row1-column2{
+    width:60%;
+}
+
+#isoboye-resume .row2 .column1 .table-education .table-row1 .table-row1-column3{
+    width:20%;
+}
+
+/************************************************* Isoboye Section table row2 **************************************************/
+
+#isoboye-resume .row2 .column1 .table-education .table-row2{
+    height: auto;
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 5px; 
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row2 .table-row2-column1{
+    width:20%;
+    text-align: center;
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row2 .table-row2-column2{
+     width:60%;
+     text-align: justify;
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row2 .table-row2-column3{
+     width:20%;
+    text-align: center;
+ }
+
+ 
+/************************************************* Isoboye Section table row3 **************************************************/
+
+#isoboye-resume .row2 .column1 .table-education .table-row3{
+    height: auto;
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 5px; 
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row3 .table-row3-column1{
+    width:20%;
+    text-align: center;
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row3 .table-row3-column2{
+     width:60%;
+     text-align: justify;
+ }
+ 
+ #isoboye-resume .row2 .column1 .table-education .table-row3 .table-row3-column3{
+     width:20%;
+    text-align: center;
+ }
+
+ /************************************************* Isoboye Section Main row2 column2 **************************************************/
+.row2 .column2{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+#isaac-resume{
+    background-color:  rgb(122, 45, 163);
+    width: 100%;
+    height: 750px;
+}
+
+#isaac-resume #isaac-resume-pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}

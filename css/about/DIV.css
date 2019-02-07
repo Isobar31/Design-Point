@@ -1,0 +1,1621 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+   box-sizing: border-box;
+}
+
+.pageBank{
+	overflow:auto;
+	height:auto;
+}
+
+/* ************************************************************* FIRST MENU BAR SECTION *********************************************** */
+.first-menu-bar-section{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px rgb(196, 188, 188) solid;
+}
+
+.first-menu-bar-section .column1{
+    width: 50%;
+   float: left;
+}
+
+.first-menu-bar-section .column1 #brandName{
+    width: 30%;
+   float: left;
+}
+
+.first-menu-bar-section .column1 #brandName #designPoint{
+    float: left;
+    color: black;
+    padding: 25px 3px 0px 10px;
+    font-size: 25px;
+    font-weight: bolder;    
+}
+
+.first-menu-bar-section .column1 #brandName #pro{
+   float: left;
+   padding: 25px 0px 0px 0px;
+   color: black;
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bolder;
+}
+
+.first-menu-bar-section .column1 .InputAndSearchBox{
+    width: 70%;
+   float: left;
+   padding: 25px 0px 0px 0px;
+   display: inline-flex;
+}
+
+.first-menu-bar-section .column1 .InputAndSearchBox #searchBoxInput{
+   width: 300px;
+   height: 30px;
+   border: 0.5px solid #ddd;
+   background-color: white;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   font-size: 16px;
+   font-family: Arial;
+   padding: 3px 0px 3px 5px;
+}
+
+.first-menu-bar-section .column1 .InputAndSearchBox #searchBoxButton{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.first-menu-bar-section .column2{
+    width: 40%;
+   float: left;
+   font-size: 16px;
+}
+
+.first-menu-bar-section .column2 #homepage{
+   float: left;
+   padding: 30px 10px 0px 200px;
+}
+
+.first-menu-bar-section .column2 #homepage a{
+    color: rgb(46, 207, 87);
+ }
+
+.first-menu-bar-section .column2 #seller{
+    float: left;
+    padding: 30px 10px 0px 0px;
+ }
+ 
+.first-menu-bar-section .column2 #seller a{
+    color: black;
+ }
+
+ .first-menu-bar-section .column2 #signIn{
+    float: left;
+    padding: 30px 0px 0px 0px;
+ }
+ 
+.first-menu-bar-section .column2 #signIn a{
+    color: black;
+ }
+
+ .first-menu-bar-section .column3{
+    width: 10%;
+   float: left;
+   font-size: 16px;
+   padding: 25px 70px 0px 0px;  
+}
+
+ .first-menu-bar-section .column3 #join{
+    padding: 4px 15px 4px 15px;
+    border: 1.5px rgb(46, 207, 87) solid;
+    border-radius: 2px;
+ }
+ 
+.first-menu-bar-section .column3 #join a{
+    color:rgb(46, 207, 87);
+    font-weight: bolder;
+ }
+
+
+/* ************************************************************* SECOND MENU BAR SECTION *********************************************** */ 
+
+.second-menu-bar-section{
+   width: 100%;
+   height: 40px;
+    border-bottom: 1px rgb(196, 188, 188) solid;
+    padding: 17px 0px 0px 0px;
+    background:white;
+  }
+  
+  .second-menu-bar-section .menuBar{
+     width: 100%;
+   }
+  
+  .second-menu-bar-section .menuBar .megaMenu{
+    width: 40%;
+    float: left;
+    height: 35px;
+    position: relative;
+   margin: 0% 0% 0% 25%;
+  }
+  
+  /* ************************************************************* SECOND MENU LINK 1 *********************************************** */ 
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+   
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain #graphicsAndDesign{
+    color: black;
+    font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain #graphicsAndDesign:hover{
+    border-bottom: 3px rgb(27, 228, 178) solid;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub{
+    position: absolute;
+    width: 66.6%;
+    background-color: rgb(236, 233, 236);
+    display: none;
+    font-size: 20px;
+    left: 10px;   /****************** set to adjust the sub menu navigation */
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub{
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub a{
+    display: block;
+    text-align: left;
+    padding: 5px 0px 5px 5px;
+    color: rgb(107, 99, 99);
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: rgb(97, 94, 94);
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2{
+    width: 50%;
+    float: left;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  /* ************************************************************* SECOND MENU LINK 2 *********************************************** */ 
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain #WritingAndTranscription{
+    color: black;
+    font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain #WritingAndTranscription:hover{
+    border-bottom: 3px rgb(27, 228, 178) solid;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub{
+    position: absolute;
+    width: 66.6%;
+    background-color: rgb(236, 233, 236);
+    display: none;
+    font-size: 20px;
+    left: 100px;    /****************** set to adjust the sub menu navigation */
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub{
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub a{
+    display: block;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    color: rgb(107, 99, 99);
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2{
+    width: 50%;
+    float: left;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  /* ************************************************************* SECOND MENU LINK 3 *********************************************** */ 
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain #videoAndAnimation{
+    color: black;
+    font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain #videoAndAnimation:hover{
+    border-bottom: 3px rgb(27, 228, 178) solid;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub{
+    position: absolute;
+    width: 66.6%;
+    background-color: rgb(236, 233, 236);
+    display: none;
+    font-size: 20px;
+    left: 160px;    /****************** set to adjust the sub menu navigation */
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub a{
+    display: block;
+    text-align: center;
+    padding: 5px 0px 5px 5px;
+    color: rgb(107, 99, 99);
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1{
+    width: 50%;
+    float: left;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2{
+    width: 50%;
+    float: left;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2 .subjects{
+    margin: 15px 0px 0px 0px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground{
+  
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul{
+   font-size: 18px;
+  }
+  
+  .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul:hover{
+    text-decoration: underline;
+  }
+  
+  /* ************************************************************* SECOND MENU LINK 4 *********************************************** */ 
+  
+  .second-menu-bar-section .menuBar .businessMain{
+    width: 5%;
+    float: left;
+    height: 35px;
+    position: relative;
+    margin: 0px 25% 0px 0px;
+  }
+  
+  .second-menu-bar-section .menuBar .businessMain #business{
+    font-size: 18px;
+    color: black;
+  }
+  
+  .second-menu-bar-section .menuBar .businessMain .menuSub{
+    width: 200px;
+    background-color: rgb(236, 233, 236);
+    position: absolute;
+    padding: 2px 0px 2px 10px;
+    left: -135px;
+    display: none;
+  }
+  
+  .second-menu-bar-section .menuBar .businessMain:hover .menuSub{
+    width: 150px;
+    background-color: rgb(236, 233, 236);
+    position: absolute;
+    padding: 2px 0px 2px 10px;
+    left: -85px;
+    display: block;
+    text-align: center;
+  }
+  
+  .second-menu-bar-section .menuBar .businessMain .menuSub ul{
+   display: block;
+   margin: 15px 0px 5px 0px;
+  }
+  
+  .second-menu-bar-section .menuBar .businessMain .menuSub ul a{
+    color: rgb(107, 99, 99);
+    font-size: 18px;  
+  }
+  
+
+/* ************************************************************* Profile Section *********************************************** */ 
+
+.profile{
+   width: 100%;
+   height: 1800px;
+   background-color: #ddd;
+}
+
+.profile .personalData{
+   width: 40%;
+   float: left; 
+   padding: 0px 0px 50px 0px;
+   background-color: #ddd;
+}
+
+/* ******************************************** Profile Section Personal Data Foundation *********************************************** */ 
+
+.profile .personalData .foundation{
+   width: 70%;
+   height: 500px;
+   background-color: white;
+   margin: 30px 0px 30px 50px;
+}
+
+.profile .personalData .foundation .foundationTop{
+   width: 80%;
+   height: 310px;
+   margin: 0px 10% 0px 10%;
+   border-bottom: 1px rgb(192, 191, 191) solid;  
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart{
+   height: 250px;
+   width: 100%;
+   padding: 15px 0px 0px 100px;
+   margin-left: -10%;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .imageBoard{
+   height: 150px;
+   width: 200px;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .imageBoard .imagePosition{
+   height: 150px;
+   width: 150px;
+   border-radius: 75px;
+   background-color: rgb(250, 216, 222);
+   position: relative;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .imageBoard .imagePosition #DIVPic{
+   height: 100px;
+   width: 100px;
+   border-radius: 50px;
+   position: absolute;
+   margin: 35px 0px 0px 25px;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .nameAndMotto{
+   width: 100%;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .nameAndMotto #name{
+   color: black;
+   font-size: 25px;
+   font-weight: bold;
+   padding: 0px 0px 0px 50px;
+}
+
+.profile .personalData .foundation .foundationTop .ImagePart .nameAndMotto #motto{
+   color: rgb(97, 95, 95);
+   font-size: 14px;
+   margin: 0px 0px 0px -10px;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart{
+   width: 100%;
+   height: 40px;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .contactMeBoard{
+   width: 50%;
+   height: 40px;
+   float: left;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .contactMeBoard .contactMe{
+   height: 40px;
+   padding: 5px 10% 5px 0px;
+   background-color: #43CD80;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .contactMeBoard .contactMe #text{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .quotes{
+   width: 45%;
+   height: 40px;
+   float: left;
+   border: 1px grey solid;
+   margin-left: 5%;
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .quotes .theQuote{
+ padding: 10px 0px 0px 30px
+}
+
+.profile .personalData .foundation .foundationTop .linkPart .quotes .theQuote #theQuoteWord{
+   color: rgb(105, 102, 102);
+}
+
+.profile .personalData .foundation .foundationBottom{
+   width: 100%;
+   height: 190px;
+   padding-bottom: 10px;
+   margin-top: 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols{
+   width: 50%;
+   float: left;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .from{
+   padding: 0px 0px 0px 20px;
+   height: 30px;
+   margin-top: 10px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .from #fromIcon{
+   width: 15px;
+   height: 15px;
+   float: left;  
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .from p{
+  color: rgb(119, 115, 115);
+  font-size: 16px;
+  padding: 0px 0px 0px 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .member{
+   height: 30px;
+   padding: 0px 0px 0px 20px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .member #memberIcon{
+   width: 15px;
+   height: 15px;
+   float: left;  
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .member p{
+  color: rgb(119, 115, 115);
+  font-size: 16px;
+  padding: 0px 0px 0px 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .AvgResponseTime{
+   height: 30px;
+   padding: 0px 0px 0px 20px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .AvgResponseTime #AvgResponseTimeIcon{
+   width: 15px;
+   height: 15px;
+   float: left;  
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .AvgResponseTime p{
+  color: rgb(119, 115, 115);
+  font-size: 16px;
+  padding: 0px 0px 0px 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .recentDelivery{
+   height: 30px;
+   padding: 0px 0px 0px 20px;
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .recentDelivery #recentDeliveryIcon{
+   width: 15px;
+   height: 15px;
+   float: left;  
+}
+
+.profile .personalData .foundation .foundationBottom .QuestionsAndSymbols .recentDelivery p{
+  color: rgb(119, 115, 115);
+  font-size: 16px;
+  padding: 0px 0px 0px 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers{
+   width: 50%;
+   float: left;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #country{
+  height: 30px;
+  margin-top: 10px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #country p{
+   color: rgb(82, 81, 81);
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  padding-right: 40px;
+ }
+
+ .profile .personalData .foundation .foundationBottom .answers #memberSince{
+   height: 30px;
+}
+ 
+ .profile .personalData .foundation .foundationBottom .answers #memberSince p{
+    color: rgb(82, 81, 81);
+   font-size: 16px;
+   font-weight: bolder;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: right;
+   padding-right: 40px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #time{
+   height: 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #time p{
+   color: rgb(82, 81, 81);
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #deliveryHours{
+   height: 30px;
+}
+
+.profile .personalData .foundation .foundationBottom .answers #deliveryHours p{
+   color: rgb(82, 81, 81);
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  padding-right: 40px;
+}
+
+/* ******************************************** Profile Section Personal Data qualification *********************************************** */ 
+
+.profile .personalData .qualification{
+   width: 70%;
+   height: 1000px;
+   background-color: white;
+   margin: 30px 0px 30px 50px;
+}
+
+.profile .personalData .qualification .descriptionBoard{
+   width: 80%;
+   height: 250px;
+   padding: 30px 0px 20px 0px;
+   margin: 0px 10% 20px 10%;
+   border-bottom: 1px rgb(185, 184, 184) solid;
+}
+
+.profile .personalData .qualification .descriptionBoard #descriptionHeading{
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.profile .personalData .qualification .languageBoard{
+   width: 80%;
+   height: 200px;
+   padding: 0px 0px 20px 0px;
+   margin: 0px 10% 0px 10%;
+   border-bottom: 1px rgb(185, 184, 184) solid;
+}
+
+.profile .personalData .qualification .languageBoard #languageHeading{
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.profile .personalData .qualification .languageBoard p{
+   color: rgb(54, 53, 53);
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+.profile .personalData .qualification .linkedAccountBoard{
+   width: 80%;
+   height: 100px;
+   padding: 10px 0px 20px 0px;
+   margin: 0px 10% 0px 10%;
+   border-bottom: 1px rgb(185, 184, 184) solid;
+}
+
+.profile .personalData .qualification .linkedAccountBoard #linkedAccountHeading{
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.profile .personalData .qualification .linkedAccountBoard p{
+    color: black;
+    font-size: 18px;
+ }
+
+.profile .personalData .qualification .skillBoard{
+   width: 80%;
+   height: 250px;
+   padding: 10px 0px 20px 0px;
+   margin: 0px 10% 0px 10%;
+   border-bottom: 1px rgb(185, 184, 184) solid;
+}
+
+.profile .personalData .qualification .skillBoard #skillHeading{
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard{
+  height: 120px;
+  width: 100%;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1{
+   width: 50%;
+   float: left;
+ }
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill1{
+   height: 35px;
+   width: 100%;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill1:hover{
+    height: 35px;
+   width: 100%;
+   background-color: rgb(236, 234, 234);
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill1 #text{
+   color: rgb(66, 65, 65);
+   text-align: center;
+   padding-top: 7px;
+   font-size: 18px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill2{
+   height: 30px;
+   width: 70%;
+   background-color: white;
+   border-radius: 20px;
+   padding-top: 2px;
+   border: 1px rgb(187, 184, 184) solid;
+   margin-top: 10px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill2:hover{
+   background-color: rgb(236, 234, 234);
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill2 #text{
+    color: rgb(66, 65, 65);
+   text-align: center;
+   padding-top: 2px;
+   font-size: 18px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill3{
+    height: 30px;
+    width: 90%;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+   margin-top: 10px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill3:hover{
+    height: 30px;
+    width: 90%;
+   background-color: rgb(236, 234, 234);
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill3 #text{
+    color: rgb(66, 65, 65);
+   text-align: center;
+   padding-top: 2px;
+   font-size: 18px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill4{
+   height: 25px;
+   width: 80%;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+   margin-top: 10px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill4:hover{
+   height: 25px;
+   width: 80%;
+   background-color: rgb(236, 234, 234);
+   border-radius: 20px;
+   border: 1px rgb(187, 184, 184) solid;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column1 #skill4 #text{
+    color: rgb(66, 65, 65);
+   text-align: center;
+   padding-top: 2px;
+   font-size: 18px;
+}
+
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2{
+   width: 50%;
+   float: left;
+   padding-left: 10px;
+}
+
+.profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill5{
+    height: 25px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+    margin-bottom: 10px;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill5:hover{
+    height: 25px;
+    width: 80%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill5 #text{
+    color: rgb(66, 65, 65);
+    text-align: center;
+    padding-top: 2px;
+    font-size: 18px;
+ }
+
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill6{
+    height: 25px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+    margin-bottom: 10px;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill6:hover{
+    height: 25px;
+    width: 80%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill6 #text{
+    color: rgb(66, 65, 65);
+    text-align: center;
+    padding-top: 2px;
+    font-size: 18px;
+ }
+
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill7{
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+    margin-bottom: 10px;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill7:hover{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill7 #text{
+    color: rgb(66, 65, 65);
+    text-align: center;
+    padding-top: 2px;
+    font-size: 18px;
+ }
+
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill8{
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+    margin-bottom: 10px;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill8:hover{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 20px;
+    border: 1px rgb(187, 184, 184) solid;
+ }
+ 
+ .profile .personalData .qualification .skillBoard .skillItemBoard .column2 #skill8 #text{
+    color: rgb(66, 65, 65);
+    text-align: center;
+    padding-top: 2px;
+    font-size: 18px;
+ }
+
+.profile .personalData .qualification .educationBoard{
+   width: 80%;
+   height: 150px;
+   padding: 10px 0px 20px 0px;
+   margin: 0px 10% 0px 10%;
+}
+
+.profile .personalData .qualification .educationBoard #educationHeading{
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.profile .personalData .qualification .educationBoard p{
+   color: rgb(54, 53, 53);
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ******************************************** Profile Section Personal works *********************************************** */ 
+
+.profile .personalWorksPlatform{
+   width: 60%;
+   float: left;
+   background-color: #ddd;
+}
+
+
+.profile .personalWorksPlatform .username{
+   height: 110px;
+ }
+
+.profile .personalWorksPlatform .username .usernameBoard{
+   width: 95%; 
+   height: 60px;
+    background-color: white;
+    margin: 25px 5% 25px 0px;
+}
+
+.profile .personalWorksPlatform .username .usernameBoard{
+   color: black;
+   font-weight: bolder;
+   font-size: 22px;
+   padding: 17px 0px 0px 20px;
+}
+
+.profile .personalWorksPlatform .works{
+  width: 95%;
+  height: 1440px;
+  margin-right: 5%;
+}
+
+/* ******************************************** Profile Section Personal works Row 1 *********************************************** */
+
+.profile .personalWorksPlatform .works .worksRow1{
+   width: 100%;
+	height: 330px;
+   margin: 0px 0% 30px 0px;
+}
+
+/* ****************************************** Profile Section Personal works Row 1 Column 1 *********************************************** */
+
+.profile .personalWorksPlatform .works .worksRow1 .column1{
+   width: 32%;
+   float: left;
+   background-color: white;
+   margin: 0px 0% 0px 0%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace{
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig #Image #List-of-labels{
+	width: 100%;
+	height: 150px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1{
+	height: 130px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace #person #DIV{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace #personName #DIV{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column1 .gigSpace .gig .statusBar #price{
+	width: 75%;
+	float: left;
+	padding: 10px 3px 10px 60px;
+	font-size: 18px;
+}
+
+/* ****************************************** Profile Section Personal works Row 1 Column 2 *********************************************** */
+
+.profile .personalWorksPlatform .works .worksRow1 .column2{
+   width: 32%;
+   float: left;
+   background-color: white;
+   margin: 0px 0% 0px 2%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace{
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig #Image #Process-analysis{
+	width: 100%;
+	height: 150px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1{
+	height: 130px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace #person #DIV{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace #personName #DIV{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column2 .gigSpace .gig .statusBar #price{
+	width: 75%;
+	float: left;
+	padding: 10px 3px 10px 60px;
+	font-size: 18px;
+}
+
+/* ****************************************** Profile Section Personal works Row 1 Column 3 *********************************************** */
+
+.profile .personalWorksPlatform .works .worksRow1 .column3{
+   width: 32%;
+   float: left;
+   background-color: white;
+   margin: 0px 0% 0px 2%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace{
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig #Image #Photo-manipulation{
+	width: 100%;
+	height: 150px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1{
+	height: 130px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.profile .personalWorksPlatform .works .worksRow1 .column3 .gigSpace .gig .statusBar #price{
+	width: 75%;
+	float: left;
+	padding: 10px 3px 10px 60px;
+	font-size: 18px;
+}
+
+/* ****************************************** Profile Section Personal works Row 2 Column 1 *********************************************** */
+
+.profile .personalWorksPlatform .works .worksRow2{
+   width: 100%;
+	height: 330px;
+   margin: 0px 0% 30px 0px;
+   /* background-color: white; */
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1{
+   width: 32%;
+   float: left;
+   background-color: white;
+   margin: 0px 0% 0px 0%;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace{
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig #Image #graphicIsaac{
+	width: 100%;
+	height: 150px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1{
+	height: 130px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.profile .personalWorksPlatform .works .worksRow2 .column1 .gigSpace .gig .statusBar #price{
+	width: 75%;
+	float: left;
+	padding: 10px 3px 10px 60px;
+	font-size: 18px;
+}
+
+
+.profile .personalWorksPlatform .works .worksRow3{
+   width: 100%;
+	height: 330px;
+   margin: 0px 0% 30px 0px;
+   /* background-color: white; */
+}

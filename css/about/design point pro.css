@@ -1,0 +1,1520 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	box-sizing: border-box;	
+}
+
+body{
+    overflow:auto;
+	height:auto;
+}
+
+/* ************************************************************* FIRST MENU BAR SECTION *********************************************** */
+.first-menu-bar-section{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px rgb(196, 188, 188) solid;
+ }
+ 
+ .first-menu-bar-section .column1{
+    width: 50%;
+   float: left;
+ }
+ 
+ .first-menu-bar-section .column1 #brandName{
+    width: 30%;
+   float: left;
+ }
+ 
+ .first-menu-bar-section .column1 #brandName #designPoint{
+    float: left;
+    color: black;
+    padding: 25px 3px 0px 10px;
+    font-size: 25px;
+    font-weight: bolder;    
+ }
+ 
+ .first-menu-bar-section .column1 #brandName #pro{
+   float: left;
+   padding: 25px 0px 0px 0px;
+   color: black;
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bolder;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox{
+    width: 70%;
+   float: left;
+   padding: 25px 0px 0px 0px;
+   display: inline-flex;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox #searchBoxInput{
+   width: 300px;
+   height: 30px;
+   border: 0.5px solid #ddd;
+   background-color: white;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   font-size: 16px;
+   font-family: Arial;
+   padding: 3px 0px 3px 5px;
+ }
+ 
+ .first-menu-bar-section .column1 .InputAndSearchBox #searchBoxButton{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+ }
+ 
+ .first-menu-bar-section .column2{
+    width: 40%;
+   float: left;
+   font-size: 16px;
+ }
+ 
+ .first-menu-bar-section .column2 #homepage{
+   float: left;
+   padding: 30px 10px 0px 200px;
+ }
+ 
+ .first-menu-bar-section .column2 #homepage a{
+    color: rgb(46, 207, 87);
+ }
+ 
+ .first-menu-bar-section .column2 #seller{
+    float: left;
+    padding: 30px 10px 0px 0px;
+ }
+ 
+ .first-menu-bar-section .column2 #seller a{
+    color: black;
+ }
+ 
+ .first-menu-bar-section .column2 #signIn{
+    float: left;
+    padding: 30px 0px 0px 0px;
+ }
+ 
+ .first-menu-bar-section .column2 #signIn a{
+    color: black;
+ }
+ 
+ .first-menu-bar-section .column3{
+    width: 10%;
+   float: left;
+   font-size: 16px;
+   padding: 25px 70px 0px 0px;  
+ }
+ 
+ .first-menu-bar-section .column3 #join{
+    padding: 4px 15px 4px 15px;
+    border: 1.5px rgb(46, 207, 87) solid;
+    border-radius: 2px;
+ }
+ 
+ .first-menu-bar-section .column3 #join a{
+    color:rgb(46, 207, 87);
+    font-weight: bolder;
+ }
+ 
+ /* ************************************************************* SECOND MENU BAR SECTION *********************************************** */ 
+ 
+ .second-menu-bar-section{
+  width: 100%;
+  height: 55px;
+   border-bottom: 1px rgb(196, 188, 188) solid;
+   padding: 17px 0px 0px 0px;
+   background:white;
+ }
+ 
+ .second-menu-bar-section .menuBar{
+    width: 100%;
+  }
+ 
+ .second-menu-bar-section .menuBar .megaMenu{
+   width: 40%;
+   float: left;
+   height: 35px;
+   position: relative;
+  margin: 0% 0% 0% 25%;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 1 *********************************************** */ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+    height: 37px;
+ }
+
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain #graphicsAndDesign{
+   color: black;
+   font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub{
+   position: absolute;
+   width: 80%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   margin-top: 15px;
+   font-size: 20px;
+   left: 0px;   /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub{
+   display: block;
+   text-align: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub a{
+   display: block;
+   text-align: left;
+   padding: 5px 0px 5px 5px;
+   color: rgb(107, 99, 99);
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+   padding-left: 10px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: rgb(97, 94, 94);
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .graphicsAndDesignMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 2 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   height: 37px;
+ }
+
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain #WritingAndTranscription{
+   color: black;
+   font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub{
+   position: absolute;
+   width: 66.6%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   margin-top: 15px;
+   font-size: 20px;
+   left: 100px;    /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub{
+   display: block;
+   text-align: left;
+   padding-top: 5px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub a{
+   display: block;
+   text-align: left;
+   padding: 5px 5px 5px 5px;
+   color: rgb(107, 99, 99);
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+   padding-left: 10px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .WritingAndTranscriptionMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 3 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   height: 37px;
+ }
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain #videoAndAnimation{
+   color: black;
+   font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub{
+   position: absolute;
+   width: 66.6%;
+   background-color: rgb(236, 233, 236);
+   display: none;
+   margin-top: 15px;
+   font-size: 20px;
+   left: 220px;    /****************** set to adjust the sub menu navigation */
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub{
+   display: block;
+   text-align: center;
+   padding-top: 5px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub a{
+   display: block;
+   text-align: center;
+   padding: 5px 0px 5px 5px;
+   color: rgb(107, 99, 99);
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_1 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2{
+   width: 50%;
+   float: left;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain:hover .menuSub .column_2 .subjects{
+   margin: 15px 0px 0px 0px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground{
+ 
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul{
+  font-size: 18px;
+ }
+ 
+ .second-menu-bar-section .menuBar .megaMenu .videoAndAnimationMain .menuSub .column_2 #columnBackground ul:hover{
+   text-decoration: underline;
+ }
+ 
+ /* ************************************************************* SECOND MENU LINK 4 *********************************************** */ 
+ 
+ .second-menu-bar-section .menuBar .businessMain{
+   width: 5%;
+   float: left;
+   height: 37px;
+   position: relative;
+   margin: 0px 25% 0px 0px;
+ }
+
+ .second-menu-bar-section .menuBar .businessMain:hover{
+  border-bottom: 5px rgb(27, 228, 178) solid;
+}
+ 
+ .second-menu-bar-section .menuBar .businessMain #business{
+   font-size: 18px;
+   color: black;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub{
+   width: 200px;
+   background-color: rgb(236, 233, 236);
+   position: absolute;
+   padding: 2px 0px 2px 10px;
+   left: -130px;
+   display: none;
+   margin-top: 15px;
+   min-width: 100px;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain:hover .menuSub{
+   width: 150px;
+   background-color: rgb(236, 233, 236);
+   position: absolute;
+   padding: 2px 0px 2px 10px;
+   left: -65px;
+   display: block;
+   text-align: center;
+   border: 3px 
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub ul{
+  display: block;
+  margin: 15px 0px 5px 0px;
+ }
+ 
+ .second-menu-bar-section .menuBar .businessMain .menuSub ul a{
+   color: rgb(107, 99, 99);
+   font-size: 18px;  
+ }
+ 
+/* ************************************************************* PRO BACKGROUND *********************************************** */ 
+
+.Pro-background{
+    clear: both;
+    width: 100%;
+    height: 450px;
+    background: url("../../img/profiles/Pro/background.jpg");
+    color: white;
+}
+
+.Pro-background .textBoard{
+  margin: 0px 2% 0px 50%;
+  color: white;
+  padding-top: 60px;
+  font-size: 60px;
+}
+
+ .Pro-background .textBoard #text2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Pro-background .textBoard #text1, #text2{
+   font-weight: bolder;
+   font-size: 35px;
+}
+
+.Pro-background .textBoard #proLearnMore{
+  margin: 0px 0px 0px 0px;
+  color: #48D1CC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* *************************************************** PRO FLYER *********************************************** */
+
+.Pro-flyer-section{
+  width: 100%;
+  height: 500px;
+  padding: 30px 50px 0px 50px;
+  margin-top: 50px;
+}
+
+.Pro-flyer-section .headingAndLink{
+  width: 100%;
+  height: 50px;
+}
+
+.Pro-flyer-section .headingAndLink #text{
+  width: 40%;
+  float: left;
+  height: 50px;
+  margin-right: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Pro-flyer-section .headingAndLink .moreDesigns{
+  width: 30%;
+  float: left;
+  height: 50px;
+  margin-left: 20%;
+}
+
+.Pro-flyer-section .headingAndLink .moreDesigns #LinkText{
+  color: rgb(20, 173, 168);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.Pro-flyer-section .flyer{
+  width: 100%;
+  height: 450px;
+}
+
+/* *************************************** PRO FLYER COLUMN 1 *********************************************** */
+
+.Pro-flyer-section .flyer .column1{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+  background-color: white;
+  height: 350px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace{
+ border: 1px rgb(202, 196, 196) solid;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig #Image {
+  overflow: hidden;
+ }
+ 
+.Pro-flyer-section .flyer .column1 .gigSpace .gig #Image figure{
+    width: 400%;
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    animation: 15s sliderShowflyer infinite;
+ }
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig #Image figure #flyer{
+ width: 25%;
+ height: 150px;
+ float: left;
+}
+
+@keyframes sliderShowflyer{
+    0%{
+      left: 0%;
+  }
+  20%{
+      left: 0%;
+  }
+  25%{
+      left: -100%;
+  }
+  45%{
+      left: -100%;
+  }
+  50%{
+      left: -200%;
+  }
+  70%{
+      left: -200%;
+  }
+  75%{
+      left: -200%;
+  }
+  80%{
+      left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -300%;
+  }
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1{
+ height: 130px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace{
+ width: 100%;
+ height: 30px;
+ margin: 2px 0px 2px 3px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+ width: 11%;
+ float: left;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+ width: 100%;
+ height: 25px;
+ border-radius: 50%;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+ width: 87%;
+ float: left;
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+ font-size: 12px;
+ padding-left: 10px;
+ color: black;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+ color: rgb(255, 153, 0);
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 #text{
+ width: 100%;
+ height: 120px;
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;	
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 #text a{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: black;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .textSpace1 #text a:hover{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: #65aa50;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar{
+ width: 100%;
+ height: 50px;
+ border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu{
+ width: 15%;
+ float: left;
+ padding: 15px 0px 0px 10px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.Pro-flyer-section .flyer .column1 .gigSpace .gig .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* *************************************** PRO FLYER COLUMN 2 *********************************************** */
+
+.Pro-flyer-section .flyer .column2{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO FLYER COLUMN 3 *********************************************** */
+
+.Pro-flyer-section .flyer .column3{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO FLYER COLUMN 4 *********************************************** */
+
+.Pro-flyer-section .flyer .column4{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO FLYER COLUMN 5 *********************************************** */
+
+.Pro-flyer-section .flyer .column5{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************************** PRO COMPLIMENTARY CARD MANIPULATION *********************************************** */
+
+.Pro-complimentary-card-section{
+  clear: both;
+  width: 100%;
+  height: 500px;
+  padding: 30px 50px 0px 50px;
+}
+
+.Pro-complimentary-card-section .headingAndLink{
+  width: 100%;
+  height: 50px;
+}
+
+.Pro-complimentary-card-section .headingAndLink #text{
+  width: 40%;
+  float: left;
+  height: 50px;
+  margin-right: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Pro-complimentary-card-section .headingAndLink .moreDesigns{
+  width: 33%;
+  float: left;
+  height: 50px;
+  margin-left: 17%;
+}
+
+.Pro-complimentary-card-section .headingAndLink .moreDesigns #LinkText{
+  color: rgb(20, 173, 168);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard{
+  width: 100%;
+  height: 450px;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 1 *********************************************** */
+
+.Pro-complimentary-card-section .complimmentaryCard .column1{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+  background-color: white;
+  height: 350px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace{
+ border: 1px rgb(202, 196, 196) solid;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig #Image #complimmentaryCardImage{
+ width: 100%;
+ height: 150px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1{
+ height: 130px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace{
+ width: 100%;
+ height: 30px;
+ margin: 2px 0px 2px 3px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+ width: 11%;
+ float: left;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+ width: 100%;
+ height: 25px;
+ border-radius: 50%;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+ width: 87%;
+ float: left;
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+ font-size: 12px;
+ padding-left: 10px;
+ color: black;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+ color: rgb(255, 153, 0);
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 #text{
+ width: 100%;
+ height: 120px;
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;	
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 #text a{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: black;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .textSpace1 #text a:hover{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: #65aa50;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar{
+ width: 100%;
+ height: 50px;
+ border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu{
+ width: 15%;
+ float: left;
+ padding: 15px 0px 0px 10px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.Pro-complimentary-card-section .complimmentaryCard .column1 .gigSpace .gig .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 2 *********************************************** */
+
+.Pro-complimentary-card-section .complimmentaryCard .column2{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 3 *********************************************** */
+
+.Pro-complimentary-card-section .complimmentaryCard .column3{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 4 *********************************************** */
+
+.Pro-complimentary-card-section .complimmentaryCard .column4{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 5 *********************************************** */
+
+.Pro-complimentary-card-section .complimmentaryCard .column5{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************************** PRO COMPLIMENTARY CARD SECTION *********************************************** */
+
+.Pro-presentation-section{
+  clear: both;
+  width: 100%;
+  height: 500px;
+  padding: 30px 50px 0px 50px;
+}
+
+.Pro-presentation-section .headingAndLink{
+  width: 100%;
+  height: 50px;
+}
+
+.Pro-presentation-section .headingAndLink #text{
+  width: 40%;
+  float: left;
+  height: 50px;
+  margin-right: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Pro-presentation-section .headingAndLink .moreDesigns{
+  width: 25%;
+  float: left;
+  height: 50px;
+  margin-left: 25%;
+}
+
+.Pro-presentation-section .headingAndLink .moreDesigns #LinkText{
+  color: rgb(20, 173, 168);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Pro-presentation-section .presentationDesigns{
+  width: 100%;
+  height: 450px;
+}
+
+/* ******************************************************** PRO PRESENTATION COLUMN 1 *********************************************** */
+
+.Pro-presentation-section .presentationDesigns .column1{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+  background-color: white;
+  height: 350px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace{
+ border: 1px rgb(202, 196, 196) solid;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig #Image{
+  overflow: hidden;
+ }
+ 
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig #Image figure{
+    width: 400%;
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    animation: 15s sliderShowPresentation infinite;
+ }
+
+ .Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig #Image figure #presentationImage{
+ width: 25%;
+ height: 150px;
+ float: left;
+}
+
+@keyframes sliderShowPresentation{
+  0%{
+      left: 0%;
+  }
+  20%{
+      left: 0%;
+  }
+  25%{
+      left: -100%;
+  }
+  45%{
+      left: -100%;
+  }
+  50%{
+      left: -200%;
+  }
+  70%{
+      left: -200%;
+  }
+  75%{
+      left: -200%;
+  }
+  80%{
+      left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -300%;
+  }
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1{
+ height: 130px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace{
+ width: 100%;
+ height: 30px;
+ margin: 2px 0px 2px 3px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+ width: 11%;
+ float: left;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #person #DIV{
+ width: 100%;
+ height: 25px;
+ border-radius: 50%;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+ width: 87%;
+ float: left;
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+ font-size: 12px;
+ padding-left: 10px;
+ color: black;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+ color: rgb(255, 153, 0);
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 #text{
+ width: 100%;
+ height: 120px;
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;	
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 #text a{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: black;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .textSpace1 #text a:hover{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: #65aa50;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar{
+ width: 100%;
+ height: 50px;
+ border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu{
+ width: 15%;
+ float: left;
+ padding: 15px 0px 0px 10px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.Pro-presentation-section .presentationDesigns .column1 .gigSpace .gig .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 2 *********************************************** */
+
+.Pro-presentation-section .presentationDesigns .column2{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 3 *********************************************** */
+
+.Pro-presentation-section .presentationDesigns .column3{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 4 *********************************************** */
+
+.Pro-presentation-section .presentationDesigns .column4{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO COMPLIMENTARY CARD COLUMN 5 *********************************************** */
+
+.Pro-presentation-section .presentationDesigns .column5{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+ 
+/* ************************************************************* PRO BACKGROUND2 *********************************************** */ 
+
+.Pro-background2{
+  clear: both;
+  width: 92%;
+  height: 350px;
+  background: url("../../img/profiles/Pro/background2.jpg");
+  color: white;
+  margin: 0% 4% 10% 4%;
+}
+
+.Pro-background2 .textBoard{
+margin: 0px 40% 0px 5%;
+color: white;
+padding-top: 80px;
+font-size: 40px;
+}
+
+.Pro-background2 .textBoard #text2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Pro-background2 .textBoard #text1, #text2{
+ font-weight: bolder;
+ font-size: 35px;
+}
+
+.Pro-background2 .textBoard #proLearnMore{
+margin: 0px 0px 0px 0px;
+color: #48D1CC;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+/* *************************************************** PRO PHOTO MANIPULATION *********************************************** */
+
+.Pro-photo-manipulation-section{
+  width: 100%;
+  height: 500px;
+  padding: 30px 50px 0px 50px;
+  margin-top: 50px;
+}
+
+.Pro-photo-manipulation-section .headingAndLink{
+  width: 100%;
+  height: 50px;
+}
+
+.Pro-photo-manipulation-section .headingAndLink #text{
+  width: 40%;
+  float: left;
+  height: 50px;
+  margin-right: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Pro-photo-manipulation-section .headingAndLink .moreDesigns{
+  width: 30%;
+  float: left;
+  height: 50px;
+  margin-left: 20%;
+}
+
+.Pro-photo-manipulation-section .headingAndLink .moreDesigns #LinkText{
+  color: rgb(20, 173, 168);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Pro-photo-manipulation-section .photoManipulation{
+  width: 100%;
+  height: 450px;
+}
+
+/* *************************************** PRO PHOTO MANIPULATION COLUMN 1 *********************************************** */
+
+.Pro-photo-manipulation-section .photoManipulation .column1{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+  background-color: white;
+  height: 350px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace{
+ border: 1px rgb(202, 196, 196) solid;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig #Image {
+  overflow: hidden;
+ }
+ 
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig #Image figure{
+    width: 400%;
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    animation: 15s sliderShowPhotoManipulation infinite;
+ }
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig #Image figure #flyer{
+ width: 25%;
+ height: 150px;
+ float: left;
+}
+
+@keyframes sliderShowPhotoManipulation{
+  0%{
+      left: 0%;
+  }
+  25%{
+      left: 0%;
+  }
+  30%{
+    left: -100%;
+  }
+  55%{
+      left: -100%;
+  }
+  60%{
+      left: -200%;
+  }
+  85%{
+      left: -200%;
+  }
+  90%{
+    left: -300%;
+  }  
+  100%{
+    left: -300%;
+  }
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1{
+ height: 130px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace{
+ width: 100%;
+ height: 30px;
+ margin: 2px 0px 2px 3px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+ width: 11%;
+ float: left;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace #person #isaac{
+ width: 100%;
+ height: 25px;
+ border-radius: 50%;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+ width: 87%;
+ float: left;
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace #personName #isaac{
+ font-size: 12px;
+ padding-left: 10px;
+ color: black;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+ color: rgb(255, 153, 0);
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 #text{
+ width: 100%;
+ height: 120px;
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;	
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 #text a{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: black;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .textSpace1 #text a:hover{
+ font-size: 18px;
+ padding: 20px 10px 10px 10px;
+ color: #65aa50;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar{
+ width: 100%;
+ height: 50px;
+ border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu{
+ width: 15%;
+ float: left;
+ padding: 15px 0px 0px 10px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu #line1{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu #line2{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu #line3{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu #line4{
+ width: 70%;
+ padding: 2px 0px 0px 0px;
+ height: 1px;
+ background-color: white;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar .lineMenu #line5{
+ width: 70%;
+ padding: 3px 0px 0px 0px;
+ height: 2px;
+ background-color: rgb(163, 150, 150);
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.Pro-photo-manipulation-section .photoManipulation .column1 .gigSpace .gig .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* *************************************** PRO BACKGROUND PHOTO MANIPULATION COLUMN 2 *********************************************** */
+
+.Pro-photo-manipulation-section .photoManipulation .column2{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO BACKGROUND PHOTO MANIPULATION COLUMN 3 *********************************************** */
+
+.Pro-photo-manipulation-section .photoManipulation .column3{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO BACKGROUND PHOTO MANIPULATION COLUMN 4 *********************************************** */
+
+.Pro-photo-manipulation-section .photoManipulation .column4{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* *************************************** PRO BACKGROUND PHOTO MANIPULATION COLUMN 5 *********************************************** */
+
+.Pro-photo-manipulation-section .photoManipulation .column5{
+  width: 18.4%;
+  float: left;
+  margin-right: 2%;
+}

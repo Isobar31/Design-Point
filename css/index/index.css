@@ -1,0 +1,1833 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	box-sizing: border-box;	
+}
+
+.pageBank{
+	overflow:auto;
+	height:auto;
+}
+
+/************************************ Main Menu *****************************************************/
+
+.menuBar{
+	position: sticky;
+	height: 60px;
+	font-size: 14px;
+	background:white;
+	width: 100%;
+	top: 0px;
+	margin: 0%;
+	padding: 0px;
+}
+
+.menuBar .menuMain{
+	float: left;
+	width: 70%;
+}
+  
+  .menuBar .menuMain div{
+	display: inline-block;
+}
+  
+.menuBar .menuMain div #MenuDesignPoint{
+	color: rgb(90, 88, 88);
+	filter: blur(0.2px);
+	opacity: 0.7;
+	text-decoration: none;
+	display: block;
+	padding: 20px 40px 20px 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+}
+
+.searchContainer .searchBox{
+  display: inline-flex;
+  height: 40px;
+}
+
+ .searchContainer .searchBox .search-box-input{
+  font-size: 16px;
+  outline: 0;
+  width: 250px;
+  padding: 5px;
+  height: 30px;
+}
+
+ .searchContainer .searchBox .search-box-button{
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  background: orange;
+  outline: 0;
+  cursor: pointer;
+  color: #a32358;
+  border-color: orange;
+  margin-right: 20px;
+
+}
+
+.menuBar .menuLink{
+	float: left;
+	width: 30%;
+}
+
+.menuBar .menuLink .designPointPro{
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.menuBar .menuLink .designPointPro a{
+	color: #00CDCD;
+}
+
+.menuBar .menuLink .designPointPro a:hover{
+	color: #13e2bf;
+}
+
+.menuBar .menuLink .becomeASeller{
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.menuBar .menuLink .becomeASeller a{
+	color: black;
+}
+
+.menuBar .menuLink .becomeASeller a:hover{
+	color: #13e2bf;
+}
+
+.menuBar .menuLink .signIn{
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.menuBar .menuLink .signIn a{
+	color: black;
+}
+
+.menuBar .menuLink .signIn a:hover{
+	color: #13e2bf;
+}
+
+.menuBar .menuLink .join{
+	float: left;
+	width: 15%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 5% 0px 0px;
+	padding: 2.5px 0px 2.5px 0px;
+	border: 1px black solid;
+	color: black;
+}
+
+.menuBar .menuLink .join:hover{
+	color: white;
+	background-color: #7bcf61;
+	border: 1px #7bcf61 solid;
+}
+
+
+/************************************ Second Menu *****************************************************/
+
+
+/* ******************************************************************* The background  ********************************************/
+
+.homePageBackground{
+	background:orange;
+	position: relative;
+}
+
+.homePageBackground .skewedBox{
+  background: #ebe7eb;
+  height: 550px;
+  transform: skew(0deg, -8.5deg) translateY(-120px); /* Translate(Y) carries the y-axis up while Translate(X) carries the x-axis to the left*/
+  font: 30px;
+  position: relative;
+}
+  
+.homePageBackground .skewedBox .skewedContainer{
+	height: 400px;
+	padding: 60px 0px;
+	transform: skew(0deg, 8.5deg);
+	font-family: arial;
+	position: relative;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu{
+	  background: #ebe7eb;
+	  height: 70px;
+	  width: 100%;
+	  padding-top: 20px;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu ul a{
+	float: left;
+	padding: 7px 10px;
+	margin-top: 3px;
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu ul a:hover{
+	float: left;
+	padding: 7px 10px;
+	margin-top: 3px;
+	color: #13e2bf;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu #Thelogo{
+margin-right: 760px;
+padding: 5px 0px 3px 40px;
+font-size: 25px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu #designPointPro{
+	color: #00CDCD;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu #designPointPro:hover{
+	color: #13e2bf;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu #Thelogo:hover{
+	margin-right: 760px;
+	padding: 5px 0px 3px 40px;
+	font-size: 25px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: black;
+}
+	
+.homePageBackground .skewedBox .skewedContainer .upperMenu ul #joinLink{
+	font-size: 16px;
+	color: rgb(58, 55, 55);
+	font-weight: bold;
+	border: 0.3px rgb(58, 55, 55) solid;
+	padding: 5px 20px;
+}
+
+.homePageBackground .skewedBox .skewedContainer .upperMenu ul #joinLink:hover{
+	border: 0.3px #f3f0f2 solid;
+	font-size: 16px;
+	color: white;
+	background: #7bcf61;
+	font-weight: bold;
+	padding: 5px 20px;
+}
+
+.homePageBackground .skewedBox .skewedContainer .backgroundText{
+	padding: 70px 0px 0px 150px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: arial;
+	color: rgb(58, 55, 55);
+}
+
+.homePageBackground .skewedBox .skewedContainer .searchContainer{
+	display: inline-flex;
+	font-size: 20px;
+	padding: 20px 0px 0px 150px;
+}
+	
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-input{
+		font-size: inherit;
+		border: 1px solid #ddd;
+		width: 480px;
+		height: 50px;
+		padding: 5px;
+}
+	
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-input:hover,
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-input:focus{
+		border-color: rgb(211, 200, 200);
+}
+	
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-button{
+		font-size: inherit;
+		width: 100px;
+		height: 50px;
+		background:orange;
+		cursor: pointer;
+		font-weight: bold;
+		color: #a32358;
+		border-color: orange;
+}
+	
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-button:hover,
+.homePageBackground .skewedBox .skewedContainer .searchContainer .search-box-button:focus{
+		border-color: orange;
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar{
+		width: 800px;
+		padding: 20px 0px 0px 150px;
+		font-size: 13px;
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar ul{
+		float: left;
+		padding: 5px 5px;
+		margin-right: 5px;
+		text-align: center;		
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar #InfographicsUl, #Web-developmentUl, #Photo-manipulationUl, #Video-editingUl, #transcriptionUl{
+		border: 0.1px rgb(197, 193, 193) solid;
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar #InfographicsUl:hover, #Web-developmentUl:hover, #Photo-manipulationUl:hover, #Video-editingUl:hover, #transcriptionUl:hover{
+		border: 0.1px rgb(197, 193, 193) solid;
+		padding: 5px 5px;
+		margin-right: 5px;
+		text-align: center;
+		background-color: #e0e9e9;
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar #popularUl{
+		color: #0f0114;
+		font: bold;		
+}
+
+.homePageBackground .skewedBox .skewedContainer .popularBar ul a{		
+		color: black;
+}
+
+	/* ************************** Section below the home background ************************************************/
+.LayerBelowHomePage{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	border-bottom: 4px #aeb8ab solid;
+	opacity: 0.4;
+	filter: blur(0.5px);
+	position: relative;
+}
+
+.LayerBelowHomePage .homeSocialMedia{
+	padding: 20px 0px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #facebook{
+	padding: 0px 0px 0px 300px;
+	width: 30%;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #facebook #facebookImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #google-plus{
+	padding: 0px 0px 0px 0px;
+	width: 8%;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #google-plus #google-plusImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #twitter{
+	width: 8%;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #twitter #twitterImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #instagram{
+	width: 8%;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #instagram #instagramImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #linkedIn{
+	width: 8%;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #linkedIn #linkedInImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #pinterest{
+	width: 8%;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #pinterest #pinterestImage{
+	width: 30px;
+	height: 30px;
+}
+
+.LayerBelowHomePage .homeSocialMedia #telegram{
+	width: 30%;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.LayerBelowHomePage .homeSocialMedia #telegram #telegramImage{
+	width: 30px;
+	height: 30px;
+}
+
+/* ************************** Advertisement section ************************************************/
+.pptImages{
+	width: 100%;
+	height: 600px;
+	background: white;
+	margin: 5px 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+.pptImages #pptH1{
+	width: 100%;
+	float: left;
+	height: 150px;
+	padding: 100px 0px 20px 10px;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+.pptImages .pptImageSpace1{
+	float: left;
+	width: 18%;
+	height: 350px;
+	margin: 0px 5px 0px 10px;
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace1 .advert1 #Image1 #list-of-labels{
+	width: 100%;
+	height: 150px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1{
+	height: 150px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace #person #DIV{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace #personName #DIV{
+	color: black;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace1 .advert1 .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.pptImages .pptImageSpace1 .advert1 .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* ***************************************************** Advertisement 2 ************************************************/
+
+.pptImages .pptImageSpace2{
+	float: left;
+	width: 18%;
+	height: 350px;
+	margin: 0px 5px 0px 15px;
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace2 .advert2 #Image2 #flyer{
+	width: 100%;
+	height: 150px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1{
+	height: 150px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace #person #isaac{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace #personName #isaac{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace2 .advert2 .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.pptImages .pptImageSpace2 .advert2 .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* ***************************************************** Advertisement 3 ************************************************/
+
+.pptImages .pptImageSpace3{
+	float: left;
+	width: 18%;
+	height: 350px;
+	margin: 0px 5px 0px 15px;
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace3 .advert3 #Image3 #pptWeb{
+	width: 100%;
+	height: 150px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1{
+	height: 150px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace #person #DIV{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace #personName #DIV{
+	color: black;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace3 .advert3 .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.pptImages .pptImageSpace3 .advert3 .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+/* ***************************************************** Advertisement 4 ************************************************/
+
+.pptImages .pptImageSpace4{
+	float: left;
+	width: 18%;
+	height: 350px;
+	margin: 0px 5px 0px 15px;
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace4 .advert4 #Image4 #designedBook{
+	width: 100%;
+	height: 150px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1{
+	height: 150px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace #person #isaac{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace #personName #isaac{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace4 .advert4 .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.pptImages .pptImageSpace4 .advert4 .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+
+/* ***************************************************** Advertisement 5 ************************************************/
+
+.pptImages .pptImageSpace5{
+	float: left;
+	width: 18%;
+	height: 350px;
+	margin: 0px 5px 0px 15px;
+	border: 1px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace5 .advert5 #Image5 #cream{
+	width: 100%;
+	height: 150px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1{
+	height: 150px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace{
+	width: 100%;
+	height: 30px;
+	margin: 2px 0px 2px 3px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace #person{
+	width: 11%;
+	float: left;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace #person #isaac{
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace #personName{
+	width: 87%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace #personName #isaac{
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 .personSpace #personName p{
+	color: rgb(255, 153, 0);
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 #text{
+	width: 100%;
+	height: 120px;
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 #text a{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: black;
+}
+
+.pptImages .pptImageSpace5 .advert5 .textSpace1 #text a:hover{
+	font-size: 18px;
+	padding: 20px 10px 10px 10px;
+	color: #65aa50;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar{
+	width: 100%;
+	height: 50px;
+	border-top: 0.5px rgb(202, 196, 196) solid;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu{
+	width: 15%;
+	float: left;
+	padding: 15px 0px 0px 10px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu #line1{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu #line2{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu #line3{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu #line4{
+	width: 70%;
+	padding: 2px 0px 0px 0px;
+	height: 1px;
+	background-color: white;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar .lineMenu #line5{
+	width: 70%;
+	padding: 3px 0px 0px 0px;
+	height: 2px;
+	background-color: rgb(163, 150, 150);
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar #loveLogo{
+	width: 10%;
+	float: left;
+	margin-right: 25%;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar #loveLogo #love{
+	width: 90%;
+	height: 33px;
+	padding: 15px 0px 0px 5px;
+}
+
+.pptImages .pptImageSpace5 .advert5 .statusBar #price{
+	width: 50%;
+	float: left;
+	padding: 10px 3px 10px 0px;	
+	font-size: 18px;
+	color: black;
+}
+/* ******************************************************** The market place section ************************************************/
+
+.marketPlaceSection .thePlace{
+	width: 100%;
+	height: 400px;	
+}
+
+.marketPlaceSection .thePlace .marketPlace{
+	width: 50%;	
+	float: left;
+}
+
+.marketPlaceSection .thePlace .marketPlace .heading{
+	height: 80px;	
+}
+
+.marketPlaceSection .thePlace .marketPlace .heading h1{
+	font-size: 30px;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 30px 0px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons{
+	height: 300px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1{
+	height: 150px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics{
+	width: 50%;
+	float: left;
+	padding: 10px 10px 10px 100px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics a #graphicsIcon{
+	width: 40px;
+	height: 40px;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics a #line{
+	width: 30px;
+	height: 2px;
+	margin-left: 70px;
+	background-color: rgb(70, 73, 70);
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics a:hover #line, .marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics a:focus #line{
+	animation:  changeColor 1s infinite;
+}
+
+@keyframes changeColor{
+	0%{
+		width: 30px;
+		height: 2px;
+		margin-left: 70px;
+		background-color: rgb(22, 221, 39);
+	}
+	100%{
+		background-color: rgb(22, 221, 39);
+		width: 70px;
+		height: 2px;
+		margin-left: 50px;
+	}
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .graphics a #textGraphics{
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription{
+	width: 50%;
+	float: left;
+	padding: 10px 10px 10px 50px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription a #transcriptionIcon{
+	width: 40px;
+	height: 40px;
+	margin-left: 65px;
+	margin-bottom: 10px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription a #line{
+	width: 30px;
+	height: 2px;
+	margin-left: 65px;
+	background-color: rgb(70, 73, 70);
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription a:hover #line, .marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription a:focus #line{
+	animation: changeColor2 1s infinite;
+}
+
+@keyframes changeColor2{
+	0%{
+		width: 30px;
+		height: 2px;
+		margin-left: 65px;
+		background-color: rgb(22, 221, 39);
+	}
+	100%{
+		background-color: rgb(22, 221, 39);
+		width: 70px;
+		height: 2px;
+		margin-left: 45px;
+	}
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow1 .transcription a #textTranscription{
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2{
+	height: 150px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business{
+	width: 50%;
+	float: left;
+	padding: 10px 10px 10px 100px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business a #businessIcon{
+	width: 40px;
+	height: 40px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business a #line{
+	width: 30px;
+	height: 2px;
+	margin-left: 30px;
+	background-color: rgb(70, 73, 70);
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business a:hover #line, .marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business a:focus #line{
+	animation: changeColor3 1s infinite;
+}
+
+@keyframes changeColor3{
+	0%{
+		width: 30px;
+		height: 2px;
+		margin-left: 30px;
+		background-color: rgb(22, 221, 39);
+	}
+	100%{
+		background-color: rgb(22, 221, 39);
+		width: 70px;
+		height: 2px;
+		margin-left: 10px;
+	}
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .business a #textBusiness{
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation{
+	width: 50%;
+	float: left;
+	padding: 10px 10px 10px 50px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation a #animationIcon{
+	width: 40px;
+	height: 40px;
+	margin-left: 65px;
+	margin-bottom: 10px;
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation a #line{
+	width: 30px;
+	height: 2px;
+	filter: blur(0.2px);
+	margin-left: 70px;
+	background-color: rgb(70, 73, 70);
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation a:hover #line, .marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation a:focus #line{
+	animation: changeColor4 1s infinite;
+}
+
+@keyframes changeColor4{
+	0%{
+		width: 30px;
+		height: 2px;
+		margin-left: 70px;
+		background-color: rgb(22, 221, 39);
+	}
+	100%{
+		background-color: rgb(22, 221, 39);
+		width: 70px;
+		height: 2px;
+		margin-left: 50px;
+	}
+}
+
+.marketPlaceSection .thePlace .marketPlace .marketIcons .marketIconsRow2 .animation a #textAnimation{
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+}
+
+/* ******************************************************** The instruction besides the market place *****************************/
+
+.marketPlaceSection .thePlace .instruction{
+	width: 50%;	
+	float: left;
+}
+
+.marketPlaceSection .thePlace .instruction .theHeading{
+	height: 50px;
+	margin: 0px 0px 40px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .theHeading #instructionHeading{
+	font-size: 30px;
+	font-weight: bold
+}
+
+.marketPlaceSection .thePlace .instruction .row1{
+	height: 100px;	
+}
+
+.marketPlaceSection .thePlace .instruction .row1 #subHeading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.marketPlaceSection .thePlace .instruction .row1 #subHeading #checked{
+	height: 15px;
+	widows: 15px;
+	margin: 0px 10px 0px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .row1 #text{
+	font-size: 18px;
+	padding: 0px 10px 0px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .row2{
+	height: 100px;	
+}
+
+.marketPlaceSection .thePlace .instruction .row2 #subHeading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.marketPlaceSection .thePlace .instruction .row2 #subHeading #checked{
+	height: 15px;
+	widows: 15px;
+	margin: 0px 10px 0px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .row2 #text{
+	font-size: 18px;
+	padding: 0px 10px 0px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .row3{
+	height: 100px;	
+}
+
+.marketPlaceSection .thePlace .instruction .row3 #subHeading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.marketPlaceSection .thePlace .instruction .row3 #subHeading #checked{
+	height: 15px;
+	widows: 15px;
+	margin: 0px 10px 0px 0px;
+}
+
+.marketPlaceSection .thePlace .instruction .row3 #text{
+	font-size: 18px;
+	padding: 0px 10px 0px 0px;
+}
+
+/* ******************************************************** POPULAR PROFESSIONAL SERVICES************************************************/
+
+.popular-professional-services-section{
+	width: 100%;
+	height: 500px;
+	padding: 30px 0px 0px 0px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices{
+
+}
+
+.popular-professional-services-section .popularProfessionalServices #popularProfessionalServicesHeading{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 0px 20px 20px;
+}
+
+.popular-professional-services-section .popularProfessionalServices .infographics{
+	width: 20%;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices .infographics a #processAnalysisImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .infographics a:hover #processAnalysisImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	filter: opacity(0.9);
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .infographics a #infographicsHeading{
+	position: absolute;
+	top: 30px;
+	color: rgb(226, 223, 223);
+	padding: 0px 0px 0px 10px;
+}
+
+.popular-professional-services-section .popularProfessionalServices .webDevelopment{
+	width: 20%;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices .webDevelopment a #webDevelopmentImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .webDevelopment a:hover #webDevelopmentImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	filter: opacity(0.9);
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .webDevelopment a #webDevelopmentHeading{
+	position: absolute;
+	top: 30px;
+	color: rgb(226, 223, 223);
+	padding: 0px 0px 0px 10px;
+}
+
+.popular-professional-services-section .popularProfessionalServices .photoManipulation{
+	width: 20%;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices .photoManipulation a #photoManipulationImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .photoManipulation a:hover #photoManipulationImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	filter: opacity(0.9);
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .photoManipulation a #webDevelopmentHeading{
+	position: absolute;
+	top: 30px;
+	color: rgb(226, 223, 223);
+	padding: 0px 0px 0px 10px;
+}
+
+.popular-professional-services-section .popularProfessionalServices .videoEditing{
+	width: 20%;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices .videoEditing a #videoEditingImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .videoEditing a:hover #videoEditingImage{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	filter: opacity(0.9);
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .videoEditing a #videoEditingHeading{
+	position: absolute;
+	top: 30px;
+	color: rgb(226, 223, 223);
+	padding: 0px 0px 0px 10px;
+}
+
+.popular-professional-services-section .popularProfessionalServices .transcription{
+	width: 20%;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.popular-professional-services-section .popularProfessionalServices .transcription a #transcription2Image{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .transcription a:hover #transcription2Image{
+	width: 230px;
+	height: 320px;
+	border-radius: 5px;
+	filter: opacity(0.9);
+	transition: 0.4s ease-in-out;
+}
+
+.popular-professional-services-section .popularProfessionalServices .transcription a #transcription2Heading{
+	position: absolute;
+	top: 30px;
+	color: rgb(226, 223, 223);
+	padding: 0px 0px 0px 10px;
+}
+
+/*-- **************************** DESIGN POINT PRO SECTION ************************************************************/
+
+.design-point-pro-section{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+
+.design-point-pro-section .designPointProBoard{
+	width: 94%;
+	height: 350px;
+	background-color: rgb(27, 24, 24);
+	margin: 25px 3%;
+}
+
+.design-point-pro-section .designPointProBoard .statements{
+	width: 65%;
+	float: left;
+}
+
+.design-point-pro-section .designPointProBoard .statements #para1{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 100px 0px 20px 50px
+}
+
+.design-point-pro-section .designPointProBoard .statements #para2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+	padding: 5px 0px 0px 50px
+}
+
+.design-point-pro-section .designPointProBoard .statements #proServicesLink{
+	width: 50px;
+	height: 30px;
+	color: #09e0b2;
+	border: 0.5px #09e0b2 solid;
+	margin: 10px 0px 0px 100px;
+	padding: 10px 5px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures{
+	width: 35%;
+	float: left;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .DIV{
+	width: 50%;
+	float: left;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .DIV #DIVPic{
+	width: 200px;
+	height: 200px;
+	margin-top: 100px;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .DIV #name{
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .isaac{
+	width: 50%;
+	float: left;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .isaac #isaacPic{
+	width: 200px;
+	height: 200px;
+	margin-top: 100px;
+}
+
+.design-point-pro-section .designPointProBoard .proPictures .isaac #name{
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+
+/*-- **************************** ARTICLES SECTION ************************************************************/
+
+.articles-section{
+	background: rgb(236, 200, 236);
+	height: 500px;
+	padding: 20px 0px;
+}
+
+.articles-section #articleHeading{
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0px 0px 10px 20px;
+}
+
+
+.articles-section .articles-table .articles-table-row1{
+	width: 100%;	
+}
+
+/*-- ******************************************************* Your greatness ************************************************************/
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness{
+	width: 25%;
+	padding: 10px;
+	background-color: rgb(236, 200, 236);;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness .the-book{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	background-color: #14021b;
+	border-right: #838b08 4px solid;
+	border-bottom: #838b08 4px solid;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #0f0114;
+	top: 0px;
+	left: 0px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness .the-book h2 a{	
+	color: rgb(177, 174, 10);
+	/* text-decoration: underline; */
+	font-size: 25px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness .the-book h4{	
+	color: rgb(231, 16, 221);
+	font-size: 18px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness .the-book #para1-measure-of-greatness{
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-your-greatness .the-book #para1-measure-of-greatness #para1-measure-of-greatness-read-more{
+	color: #ac23e2;
+	text-decoration: underline;
+	text-decoration-color: #ee9c05;
+}
+
+/*-- **************************** The power Jesus gave to His disciples ************************************************************/
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power{
+	width: 25%;
+	padding: 10px;
+	background-color: rgb(236, 200, 236);;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power .the-book2{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	background-color: #14021b;
+	border-right: #248b05 4px solid;
+	border-bottom: #248b05 4px solid;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #0f0114;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power .the-book2 h2 a{	
+	color: rgb(100, 224, 17);
+	/* text-decoration: underline; */
+	font-size: 25px;
+}
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power .the-book2 h4{	
+	color: rgb(231, 16, 221);
+	font-size: 18px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power .the-book2 #para1-jesus-gave-disciples-power{
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-jesus-gave-disciples-power .the-book2 #para1-jesus-gave-disciples-power #para1-jesus-gave-disciples-power-read-more{
+	color: #ac23e2;
+	text-decoration: underline;
+	text-decoration-color: #ee9c05;
+}
+
+/*-- ************************************************ Paint your world ************************************************************/
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world{
+	width: 25%;
+	padding: 10px;
+	background-color: rgb(236, 200, 236);;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world .the-book3{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	background-color: #14021b;
+	border-right: #8b0859 4px solid;
+	border-bottom: #8b0859 4px solid;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #0f0114;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world .the-book3 h2 a{	
+	color: rgb(238, 165, 234);
+	/* text-decoration: underline; */
+	font-size: 25px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world .the-book3 h4{	
+	color: rgb(231, 16, 221);
+	font-size: 18px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world .the-book3 #para1-paint-your-world{
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-paint-your-world .the-book3 #para1-paint-your-world #para1-paint-your-world-read-more{
+	color: #ac23e2;
+	text-decoration: underline;
+	text-decoration-color: #ee9c05;
+}
+
+/* ************************************************************************ Advertisement for the articles ****************************/
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-advertisement{
+	color: #46075f;
+	font-size: 27px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: justify;
+	padding-right: 20px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-advertisement #articles-Link{
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #46075f;
+	padding: 10px 20px;
+	color: rgb(14, 236, 14);
+	transition: all 0.5 ease-in;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.articles-section .articles-table .articles-table-row1 #vincent-article-advertisement #articles-Link:hover{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 20px;
+	 background-color: transparent;
+	 border: 1px solid #ac23e2;
+	 border-radius: 10px;
+	color: #ac23e2;
+	text-decoration: none;
+ } 
+
+/* ************************************************************************ The end of sections ****************************/
